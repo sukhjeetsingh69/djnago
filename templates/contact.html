@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block xyz %}
+
+<form action="/saveinfo" method="POST">
+    
+<div style="    padding: 41px;
+padding-left: 229px;
+padding-right: 229px;">
+  
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Title</label>
+        <input type=""name="abc" class="form-control" id="exampleFormControlInput1" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Descrption</label>
+        <textarea  name="dfg"class="form-control" id="" rows="3"></textarea>
+      </div>
+      <div style = "display: flex;
+        justify-content: center;">
+      <button type="Submit" class="btn btn-outline-primary">Submit</button>
+    </div>
+</div>
+</form>
+
+
+
+{% endblock xyz %}

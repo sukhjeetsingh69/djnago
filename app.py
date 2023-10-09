@@ -41,7 +41,7 @@ def saveinfo():
         x.execute("insert into teacher(Title,Description) values(%s, %s)",(tou,pop))
         conn.commit()
         return redirect("/contact")
-
+#hlooo
 
 
 if __name__ == '__main__':
